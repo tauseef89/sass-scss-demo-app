@@ -1,0 +1,32 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  margin-bottom: 85px;
+  li {
+    background: lighten($bg-color, 100%);
+    @include bradius(5px);
+    padding: 15px;
+    list-style: none;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  h4 {
+    text-align: left;
+    font-weight: 400;
+    span {
+      float: right;
+      background: $main-color;
+      color: lighten($bg-color, 100%);
+      padding: 0 10px;
+      @include bradius(15px);
+      line-height: 25px;
+    }
+  }
+}

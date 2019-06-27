@@ -1,0 +1,12 @@
+.header {
+  background: lighten($bg-color, 100%);
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  i {
+    color: $main-color;
+    font-size: 25px;
+  }
+}
