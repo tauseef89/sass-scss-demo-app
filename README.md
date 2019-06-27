@@ -1,1 +1,1 @@
-# sass-scss-demo-app
+# SASS/SCSS Demo App
